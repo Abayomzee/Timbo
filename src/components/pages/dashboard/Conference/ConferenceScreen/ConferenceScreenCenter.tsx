@@ -20,8 +20,8 @@ import { userStore } from "./../../../../../store/userStore";
 import namesToAvatar from "./../../../../../utils/helpers/namesToAvatar";
 import ButtonRecording from "./../../../../common/Button/ButtonRecording";
 import Svg from "../../../../common/Svg/Svg";
-import MeetingStore from "./../../../../../store/meetingStore";
-import recordingService from "../../../../../services/recordingService";
+// import MeetingStore from "./../../../../../store/meetingStore";
+// import recordingService from "../../../../../services/recordingService";
 import callService from "./../../../../../services/callService";
 
 interface Props {
@@ -54,7 +54,7 @@ const ConferenceScreenCenter: React.FC<Props> = ({
   const meetingManager = useMeetingManager();
 
   const { user } = userStore();
-  const callId = MeetingStore((store) => store.callId);
+  // const callId = MeetingStore((store) => store.callId);
 
   // Covert user names to avatar
   const { firstname, lastname } = user;
