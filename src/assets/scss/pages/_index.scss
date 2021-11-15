@@ -1,0 +1,100 @@
+.section {
+  &__connecting-teams {
+    // background-image: url(./../../images/pic29.png),
+    //   url(./../../images/pic30.png);
+    // background-repeat: no-repeat, no-repeat;
+    // background-position: top right, 30rem left;
+    // background-size: contain, contain;
+    background-image: url(./../../images/pic29.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+
+    background-color: $color-52;
+    padding: 0;
+  }
+
+  &__features {
+    @include flex-row-jcbetween;
+    gap: 5rem;
+  }
+
+  &__clientele {
+    padding: 7rem 0 20rem;
+    background-color: $color-53;
+  }
+
+  &__samples {
+    padding: 0 0 50rem;
+    background-image: url(./../../images/pic46.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  &__get-notified {
+    padding: 8rem;
+    background-color: $color-53;
+  }
+}
+
+.teams-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-35%);
+}
+
+.close-top-gap {
+  transform: translateY(-25rem);
+}
+
+.index-page__sub-heading {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-img-holder {
+  max-width: 56rem;
+  max-height: 36rem;
+}
+
+.timbo-partners {
+  @include flex-row-jccenter-aicenter;
+  column-gap: 8rem;
+}
+
+.plans-sub-heading {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timbo-plans {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.timbo-plan {
+  &:not(:last-child) {
+    border-right: 1px solid $color-32;
+  }
+  &:nth-child(1) {
+    padding-right: 4rem;
+  }
+  &:nth-child(2) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+  &:nth-child(3) {
+    padding-left: 4rem;
+  }
+}
+
+.notification-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}

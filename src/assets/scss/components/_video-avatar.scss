@@ -1,0 +1,34 @@
+.video-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  background-color: $color-56;
+  color: $color-white;
+  display: grid;
+  place-items: center;
+
+  &__text {
+    font-size: 5rem;
+  }
+}
+
+.ch-featured-tile {
+  border: 0.3rem solid $color-primary;
+}
+
+.ch-subtitle {
+  font-size: 1.6rem !important;
+}
+
+.iSMmfk {
+  padding: 0.13rem 0 !important;
+}
+.ch-mic-icon {
+  width: 2.5rem !important;
+}
+
+.iSMmfk svg{
+  width: 2.4rem !important;
+}

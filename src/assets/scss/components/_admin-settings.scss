@@ -1,0 +1,17 @@
+.admin-settings {
+  &__general-info {
+    @include flex-row-jcbetween-aicenter;
+    max-width: 60%;
+    animation: slideFromBottom 0.5s ease;
+
+    &__label {
+    }
+    &__input-value {
+    }
+    &__edit-btn {
+    }
+    &:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+  }
+}

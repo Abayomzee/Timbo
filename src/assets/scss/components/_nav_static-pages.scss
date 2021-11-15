@@ -1,0 +1,18 @@
+.nav_static-pages {
+  background-color: $color-4;
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  &__container {
+    @include flex-row-aicenter;
+    // column-gap: 3rem;
+
+    & > * {
+      &:not(:last-child) {
+        margin-right: 3rem;
+      }
+    }
+  }
+}

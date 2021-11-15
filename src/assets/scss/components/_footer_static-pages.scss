@@ -1,0 +1,15 @@
+.footer_static-pages {
+  background-color: $color-4;
+  padding: 1.5rem 0;
+
+  &__container {
+    @include flex-row-aicenter;
+    // column-gap: 3rem;
+
+    & > * {
+      &:not(:last-child) {
+        margin-right: 3rem;
+      }
+    }
+  }
+}
