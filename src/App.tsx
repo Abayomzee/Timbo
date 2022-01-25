@@ -36,7 +36,7 @@ const App: React.FC<Props> = () => {
               <Route path="/pre" component={Preloader} />
               <Route path="/sample" component={Sample} />
               <Route path="/home" component={Home} />
-              <ProtectedRoute path="/user" component={Dashboard} />
+              <Route path="/user" component={Dashboard} />
               <Route path="/auth" component={Auth} />
               {/* <Route path="/admin/auth" component={AdminSignIn} /> */}
               <Route path="/admin" component={Admin} />
