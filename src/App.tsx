@@ -2,7 +2,7 @@ import React, { lazy, Suspense, useEffect } from "react";
 import { Route, BrowserRouter, Switch, Redirect } from "react-router-dom";
 import Preloader from "./components/common/preloader/Preloader";
 import NotFound from "./components/pages/NotFound/NotFound";
-import ProtectedRoute from "./components/common/ProtectedRoute/ProtectedRoute";
+// import ProtectedRoute from "./components/common/ProtectedRoute/ProtectedRoute";
 import {
   lightTheme,
   MeetingProvider,
